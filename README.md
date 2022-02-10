@@ -1,4 +1,4 @@
-#Morgorithm to Algorithm!
+# Morgorithm to Algorithm!
 
 ### 하루에 한 번 Coding Test!
 ### rules
