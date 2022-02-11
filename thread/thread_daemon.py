@@ -1,6 +1,4 @@
-import logging
-import threading
-import time
+import logging, threading, time
 
 
 def work(name, d) :
@@ -21,8 +19,7 @@ if __name__ == "__main__" :
     y = threading.Thread(target=work, args=('B', range(100)), daemon=True)
 
     logging.info("[Main-Thread] 쓰레드 실행 전")
-
-
+    
     x.start()
     y.start()
 
